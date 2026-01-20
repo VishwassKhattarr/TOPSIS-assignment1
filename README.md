@@ -1,4 +1,4 @@
-<img width="794" height="438" alt="image" src="https://github.com/user-attachments/assets/67204368-fb44-40fd-aab4-2f72a01f2742" /># TOPSIS Assignment
+TOPSIS Assignment
 Name: Vishwas Khattar
 Roll Number: 102303170
 
@@ -33,7 +33,7 @@ Mismatch between number of weights, impacts, and criteria
 Invalid impact symbols (only + or - allowed)
 
 Example usage of the program is provided in the assignment and the output file contains two additional columns: TOPSIS Score and Rank.
-<img width="794" height="438" alt="image" src="https://github.com/user-attachments/assets/fe6793d6-3125-4f94-8217-76809b89fd53" />
+<img width="1067" height="261" alt="image" src="https://github.com/user-attachments/assets/41b4c1bf-7711-4ab9-989d-c5ac85c58824" />
 
 Invalid impact symbols (only + or - allowed)
 Example usage of the program is provided in the assignment and the output file contains two additional columns: TOPSIS Score and Rank.
