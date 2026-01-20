@@ -10,9 +10,9 @@ This repository contains the complete implementation of the **TOPSIS (Technique 
 
 The assignment is divided into **three parts**:
 
-• Command Line TOPSIS Program - topsis.py
-• Python Package and PyPI Publishing - PyPi/Topsis-VishwasKhattar-102303170 
-• Web-based TOPSIS Service - topsis-web-service
+• Command Line TOPSIS Program under file named topsis.py
+• Python Package and PyPI Publishing under file named PyPi/Topsis-VishwasKhattar-102303170 
+• Web-based TOPSIS Service under file named topsis-web-service
 
 The objective of this assignment is to understand **multi-criteria decision making using TOPSIS** and to implement it across different platforms including **command line tools, Python package distribution, and a web application**.
 
