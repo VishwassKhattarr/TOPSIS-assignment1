@@ -60,6 +60,39 @@ The output CSV file contains two additional columns:
 
 <img width="1067" height="261" alt="Command Line Output" src="https://github.com/user-attachments/assets/41b4c1bf-7711-4ab9-989d-c5ac85c58824" />
 
+###Methodology
+
+ 
+ The following methodology is implemented in this project:
+ 
+
+♦ The program accepts four command-line inputs: the input CSV file, a list of weights, a list of impacts, and the output CSV file. If the number of arguments is incorrect, the program terminates with an error message.
+
+♦ The input CSV file is validated to ensure that it exists and can be read successfully. The file must contain at least three columns, where the first column represents the alternatives and the remaining columns represent numerical criteria.
+
+♦ All criteria columns (from the second column onwards) are checked to ensure they contain only numeric values. If any non-numeric value is found, execution is stopped with an appropriate error.
+
+♦ The weights and impacts are extracted from the command-line input and split using commas. The number of weights and impacts is validated to ensure it matches the number of criteria columns.
+
+♦ Weights are converted to floating-point numbers. Impacts are validated to ensure that each impact is either a plus (+) or minus (−), representing benefit and cost criteria respectively.
+
+♦ The decision matrix is normalized using vector normalization. Each value in a column is divided by the square root of the sum of squares of that column. This ensures that all criteria are brought to a comparable scale.
+
+♦ The normalized matrix is multiplied by the corresponding weights to obtain the weighted normalized decision matrix.
+
+♦ The ideal best and ideal worst solutions are determined for each criterion. For benefit criteria (+), the maximum value is considered ideal best and the minimum value as ideal worst. For cost criteria (−), the minimum value is considered ideal best and the maximum value as ideal worst.
+
+♦ The Euclidean distance of each alternative from the ideal best and ideal worst solutions is calculated using the weighted normalized matrix.
+
+♦ The TOPSIS score for each alternative is computed as the ratio of its distance from the ideal worst to the sum of its distances from the ideal best and ideal worst.
+
+♦ Alternatives are ranked in descending order of their TOPSIS scores. A higher score indicates closer proximity to the ideal solution and therefore a better rank.
+
+♦ The final output, including the TOPSIS score and rank, is written to the specified output CSV file.
+
+This methodology ensures an objective and systematic evaluation of alternatives based on multiple conflicting criteria.
+
+
 ---
 
 PART 2: Python Package and PyPI Publishing
