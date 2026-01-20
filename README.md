@@ -1,4 +1,4 @@
-TOPSIS Assignment
+#**TOPSIS Assignment**
 Name: Vishwas Khattar
 Roll Number: 102303170
 
@@ -14,6 +14,8 @@ In Part 1, the TOPSIS algorithm is implemented in Python as a command line progr
 The input file must contain at least three columns. The first column contains alternatives (for example, names of phones or funds) and the remaining columns contain numeric values representing different criteria.
 
 The program performs the following steps:
+
+
 1.Reads the input CSV file.
 
 
@@ -44,13 +46,23 @@ The program performs the following steps:
 
 
 The program includes proper error handling for:
-Incorrect number of command line arguments
-Missing input file
-Non-numeric values in criteria columns
-Mismatch between number of weights, impacts, and criteria
-Invalid impact symbols (only + or - allowed)
 
-Example usage of the program is provided in the assignment and the output file contains two additional columns: TOPSIS Score and Rank.
+
+- Incorrect number of command line arguments
+
+
+- Missing input file
+
+
+- Non-numeric values in criteria columns
+
+
+- Mismatch between number of weights, impacts, and criteria
+
+
+- Invalid impact symbols (only + or - allowed)
+
+- Example usage of the program is provided in the assignment and the output file contains two additional columns: TOPSIS Score and Rank.
 
 
 <img width="1067" height="261" alt="image" src="https://github.com/user-attachments/assets/41b4c1bf-7711-4ab9-989d-c5ac85c58824" />
@@ -96,16 +108,16 @@ The web application allows the user to:
 
 
 
-Upload an input CSV file
+- Upload an input CSV file
 
 
-Enter weights for each criterion
+- Enter weights for each criterion
 
 
-Enter impacts for each criterion
+- Enter impacts for each criterion
 
 
-Provide an email ID to receive the result
+- Provide an email ID to receive the result
 
 
 
